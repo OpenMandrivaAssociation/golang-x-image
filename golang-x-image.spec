@@ -84,8 +84,8 @@ License:        BSD-3-Clause
 URL:            %{gourl}
 Source:         %{gosource}
 
-Source11: 58-%{fontpkgname1}.xml
-Source12: 58-%{fontpkgname2}.xml
+Source11: 58-google-go-fonts.xml
+Source12: 58-google-go-mono-fonts.xml
 
 %description %{common_description}
 
