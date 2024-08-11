@@ -105,3 +105,4 @@ Source12: 58-google-go-mono-fonts.xml
 #fontinstall -a
 
 %files
+%{_datadir}/gocode/src/golang.org/x/image/.goipath
