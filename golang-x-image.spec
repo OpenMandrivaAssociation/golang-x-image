@@ -98,11 +98,12 @@ Source12: 58-google-go-mono-fonts.xml
 %autopatch -p1
 
 %build
-%fontbuild -a
+#fontbuild -a
+%gobuildroot
 
 %install
-%gopkginstall
-%fontinstall -a
+%goinstall
+#fontinstall -a
 
 %check
 %if %{with check}
