@@ -76,7 +76,7 @@ This package holds supplementary Go image libraries.}
 %global godocs          example AUTHORS CONTRIBUTING.md CONTRIBUTORS README.md
 
 Name:           golang-x-image
-Release:        %autorelease
+Release:        1
 Summary:        Go supplementary image libraries
 
 License:        BSD-3-Clause
