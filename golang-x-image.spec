@@ -5,7 +5,7 @@
 # https://github.com/golang/image
 %global goipath         golang.org/x/image
 %global forgeurl        https://github.com/golang/image
-Version:                0.13.0
+Version:                0.19.0
 
 %gometa
 
@@ -115,6 +115,3 @@ Source12: 58-%{fontpkgname2}.xml
 
 %gopkgfiles
 %fontfiles -a
-
-%changelog
-%autochangelog
