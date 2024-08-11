@@ -83,6 +83,7 @@ Summary:        Go supplementary image libraries
 License:        BSD-3-Clause
 URL:            %{gourl}
 Source:         %{gosource}
+BuildRequires:	compiler(go-compiler)
 
 Source11: 58-google-go-fonts.xml
 Source12: 58-google-go-mono-fonts.xml
