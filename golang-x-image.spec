@@ -94,7 +94,6 @@ Source12: 58-google-go-mono-fonts.xml
 %fontmetapkg
 
 %prep
-%goprep
 %autopatch -p1
 
 %generate_buildrequires
